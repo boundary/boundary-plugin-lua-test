@@ -1,0 +1,17 @@
+{
+    "description": "A simple test plugin for the LUA framework",
+    "icon" : "icon.png",
+    "command": "boundary-meter index.lua",
+    "metrics" : ["BOUNDARY_LUA_SAMPLE"],
+    "postExtract" : "",
+    "paramSchema": [
+        {
+            "title": "Poll Time (sec)",
+            "name": "pollInterval",
+            "description": "The Poll Interval to call the command. Defaults 5 seconds",
+            "type": "string",
+            "default": 5,
+            "required": false
+        }
+    ]
+}
