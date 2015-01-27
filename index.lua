@@ -16,5 +16,5 @@ end)
 local timer = require('timer')
 timer.setInterval(1000, function ()
 	x = 5
-	print(string.format("BOUNDARY_LUA_SAMPLE %f %d", math.random(1,10), pollInterval))
+	print(string.format("BOUNDARY_LUA_SAMPLE %f", math.random(1,10)))
 end)
