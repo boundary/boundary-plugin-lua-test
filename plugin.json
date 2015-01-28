@@ -6,6 +6,22 @@
     "postExtract" : "",
     "paramSchema": [
         {
+            "title": "Min val",
+            "name": "minValue",
+            "description": "The minimum random value",
+            "type": "string",
+            "default": 1,
+            "required": false
+        },
+        {
+            "title": "Max val",
+            "name": "maxValue",
+            "description": "The maximum random value",
+            "type": "string",
+            "default": 10,
+            "required": false
+        },
+        {
             "title": "Poll Time (sec)",
             "name": "pollInterval",
             "description": "The Poll Interval to call the command. Defaults 5 seconds",
